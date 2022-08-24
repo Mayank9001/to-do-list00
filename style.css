@@ -20,7 +20,7 @@ body{
   max-width: 405px;
   padding: 28px 0 30px;
   margin: 137px auto;
-  background: #fff;
+  background: linear-gradient(135deg, rgb(244, 244, 244), aquamarine);
   border-radius: 7px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
@@ -214,4 +214,12 @@ body{
   .task label input{
     margin-top: 4px;
   }
+}
+.foot{
+  position: fixed;
+  margin: 0%;
+  font-weight: 600;
+  color:rgb(30, 230, 167);
+  left: calc(50% - 100px);
+  bottom: 0px;
 }
